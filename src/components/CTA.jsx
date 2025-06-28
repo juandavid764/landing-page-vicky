@@ -18,15 +18,14 @@ const CTA = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Aquí se podría agregar la lógica para enviar el formulario
     console.log('Datos del formulario:', formData)
     setIsSubmitted(true)
     setTimeout(() => setIsSubmitted(false), 3000)
   }
 
   return (
-    <section id="demo" className="py-20 bg-gradient-to-br from-[#461F9C] to-[#816CAF]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="demo" className="py-20 bg-[#2d3748]">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center text-white mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">
             ¿Listo para automatizar tu negocio con Vicky IA?

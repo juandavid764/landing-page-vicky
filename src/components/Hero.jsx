@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-br from-[#E1DEE9] to-white py-20 lg:py-32">
+    <section className="bg-gradient-to-br from-[#f8f9ff] to-white py-20 lg:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-left">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#55D39E] mb-6">
@@ -16,6 +16,7 @@ const Hero = () => {
               href="#agenda"
               className="bg-[#461F9C] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#9882CC] transition-colors shadow-lg"
             >
+              Agenda una llamada
               Agenda una llamada
             </a>
           </div>

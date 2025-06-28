@@ -1,6 +1,6 @@
 const UseCases = () => {
   return (
-    <section id="casos-uso" className="py-20 bg-[#E1DEE9]">
+    <section id="casos-uso" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-[#461F9C] mb-6">
@@ -80,6 +80,7 @@ const UseCases = () => {
                     d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
                   />
                 </svg>
+                <span className="text-[#2d3748]">Ajusta el comportamiento en diferentes escenarios</span>
               </div>
               <div>
                 <h4 className="font-semibold text-[#461F9C] mb-1">
@@ -118,6 +119,10 @@ const UseCases = () => {
                 </p>
               </div>
             </div>
+            <h3 className="text-lg font-bold text-[#2d3748] mb-2">
+              Llamadas que suenan como Conversaciones Humanas
+            </h3>
+          </div>
 
             <div className="flex items-start space-x-4">
               <div className="w-10 h-10 bg-[#816CAF] rounded-lg flex items-center justify-center flex-shrink-0">
@@ -171,6 +176,9 @@ const UseCases = () => {
                 </p>
               </div>
             </div>
+            <h3 className="text-lg font-bold text-[#2d3748] mb-2">
+              Toma acciones basadas en los resultados de las llamadas
+            </h3>
           </div>
         </div>
       </div>
