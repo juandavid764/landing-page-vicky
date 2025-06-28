@@ -24,7 +24,7 @@ const CTA = () => {
   }
 
   return (
-    <section id="demo" className="py-20 bg-[#2d3748]">
+    <section id="demo" className="py-20 bg-[#461F9C]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center text-white mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">
@@ -68,7 +68,7 @@ const CTA = () => {
               <>
                 <div className="text-center mb-6">
                   <h3 className="text-2xl font-bold text-[#461F9C] mb-2">
-                    Agenda tu llamada estratégica
+                    Agenda tu llamada
                   </h3>
                   <p className="text-[#393939]">
                     Completa el formulario y descubre cómo Vicky IA puede transformar tu negocio
@@ -128,7 +128,7 @@ const CTA = () => {
                     type="submit"
                     className="w-full bg-[#461F9C] text-white py-4 px-6 rounded-lg font-semibold hover:bg-[#9882CC] transition-colors focus:ring-2 focus:ring-[#461F9C] focus:ring-offset-2"
                   >
-                    Agendar Llamada Estratégica
+                    Agendar
                   </button>
 
                   <p className="text-xs text-[#393939] text-center mt-4">
