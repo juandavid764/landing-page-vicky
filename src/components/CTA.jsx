@@ -36,7 +36,7 @@ const CTA = () => {
           {/* Left side - Image */}
           <div className="flex justify-center">
             <img 
-              src="/public/img1.png" 
+              src="/img1.png" 
               alt="Vicky IA Dashboard Analytics" 
               className="w-full max-w-lg rounded-xl shadow-2xl"
             />
