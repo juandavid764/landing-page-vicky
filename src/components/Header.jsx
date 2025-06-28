@@ -30,7 +30,7 @@ const Header = () => {
               href="#demo"
               className="bg-[#461F9C] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#9882CC] transition-colors"
             >
-              Solicitar Demo
+              Agenda una reunión
             </a>
           </div>
 
